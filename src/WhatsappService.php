@@ -1,10 +1,7 @@
 <?php
 
-
 namespace navidman\whatsappApi;
 
-
-use App\Models\Whatsapp\WhatsappMessage;
 use GuzzleHttp\Client;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Storage;
@@ -18,7 +15,7 @@ class WhatsappService
     }
     public function sendMessage($data)
     {
-        dd('package worked navidjan!');
+        dd('package worked Navidjan!');
         $base64_url = null;
         $isImage = null;
         $isFile = null;
