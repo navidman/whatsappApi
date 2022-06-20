@@ -2,7 +2,6 @@
     "name": "navidman/whatsapp-api",
     "description": "package for call different webservices",
     "require-dev": {
-        "../../../../dreamfactory/vendor/guzzlehttp/guzzle": "^7.4"
     },
     "autoload": {
         "psr-4": {
@@ -15,7 +14,9 @@
             "email": "navidmansourishsh@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
     "repositories": [
         {
             "type": "vcs",
