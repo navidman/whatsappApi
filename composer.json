@@ -1,0 +1,29 @@
+{
+    "name": "navidman/whatsappApi",
+    "description": "package for call different webservices",
+    "require-dev": {
+        "../../../../dreamfactory/vendor/guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "navidman\\whatsappApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "navid mansouri",
+            "email": "navidmansourishsh@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "navidman\\whatsappApi\\WhatsappApiServiceProvider"
+            ],
+            "aliases": {
+                "Whatsapp": "navidman\\whatsappApi\\facades\\Whatsapp"
+            }
+        }
+    }
+}
