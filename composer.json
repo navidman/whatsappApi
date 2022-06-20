@@ -16,6 +16,12 @@
         }
     ],
     "require": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/navidman/whatsappApi.git"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [
