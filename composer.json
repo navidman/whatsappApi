@@ -1,5 +1,5 @@
 {
-    "name": "navidman/whatsappApi",
+    "name": "navidman/whatsapp-api",
     "description": "package for call different webservices",
     "require-dev": {
         "../../../../dreamfactory/vendor/guzzlehttp/guzzle": "^7.4"
